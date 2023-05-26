@@ -1,0 +1,160 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+
+
+body {
+    background-image: url(../../Assets/backg.jpg);
+}
+
+.font-poppins {
+    font-family: poppins Arial, Helvetica, sans-serif;
+}
+
+.brandColor {
+    color: rgb(6, 27, 74);
+}
+
+.mainBrand {
+    color: #025efe;
+}
+
+.bx1 {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(6, 27, 74);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.timerSeparator {
+    font-size: 23px;
+}
+
+/* formatting the input type for card 16 digit numbers */
+/* Style for input[type=number] */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.card16digits {
+    height: 4em;
+    width: 91%;
+    background-color: rgba(255, 255, 255, 0.282);
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    border-radius: 5px;
+    letter-spacing: 9px;
+
+}
+
+input {
+    font-size: 24px;
+}
+
+.card16digits:focus {
+    background-color: #025efe38;
+    border: 1px solid #025efe;
+    outline: none;
+}
+
+.cvv:focus {
+    background-color: #025efe38;
+    border: 1px solid #025efe;
+    outline: none;
+}
+
+.cvv {
+    height: 4em;
+    width: 84%;
+    background-color: rgba(255, 255, 255, 0.282);
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+
+.exp-month {
+    height: 4em;
+    width: 84%;
+    background-color: rgba(255, 255, 255, 0.282);
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    border-radius: 5px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.exp-year {
+    height: 4em;
+    width: 84%;
+    background-color: rgba(255, 255, 255, 0.282);
+    border: 1px solid rgba(128, 128, 128, 0.281);
+    border-radius: 5px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.exp-year:focus {
+    background-color: #025efe38;
+    border: 1px solid #025efe;
+    outline: none;
+}
+
+.exp-month:focus {
+    background-color: #025efe38;
+    border: 1px solid #025efe;
+    outline: none;
+}
+
+.demacate {
+    font-size: 40px;
+}
+
+.butinPay {
+    width: 91%;
+    height: 5em;
+    background-color: #025efe;
+}
+
+/* SECONG SIDE INVOICE  */
+
+.invoiceBkgWrap {
+    width: 100%;
+    height: 74vh;
+    background: linear-gradient(359.58deg, #F3F3F3 24.71%, rgba(214, 214, 214, 0) 107.46%);
+    border-radius: 10px;
+}
+
+.topCardOwner {
+    background-color: #f9f7f7f5;
+    width: 10em;
+    height: 13em;
+    position: absolute;
+    right: 17em;
+    top: 5em;
+    box-shadow: -1px 2px 12px #0000002e;
+    border-radius: 14px;
+}
+
+
+.lastRow{
+    margin-top: 20em;
+}
+
+.receipt{
+    font-size: 30px;
+
+}
+
+.amount{
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+
+.liner{
+    border-style: dashed;
+   border-width: 2px;
+}
